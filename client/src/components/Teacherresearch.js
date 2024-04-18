@@ -15,7 +15,6 @@ const Teacherresearch = () => {
     const viewr = (title) => {
       const titleinfo = { title: title };
       console.log('Title Info:', titleinfo);
-      
       setCookie('title_cookie', titleinfo);
       nav('/Viewapplications');
   };
